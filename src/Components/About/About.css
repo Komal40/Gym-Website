@@ -1,63 +1,63 @@
-#about{
-    margin:3rem;
+#about {
+    margin: 3rem;
 }
- 
- .video1{
+
+.video1 {
     margin-top: 5rem;
     margin-left: 4rem;
 }
 
-.about_section{
+.about_section {
     float: right;
-    width:50%;
-    margin:10rem;
+    width: 50%;
+    margin: 10rem;
 }
 
-.about__section{
+.about__section {
     display: flex;
     margin-top: 2rem;
     align-items: center;
     justify-content: center;
 }
 
-.btn{
-    width:160px;
-	height: 50px;
-	display: flex;
-	justify-content: center;
+.btn {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     background-color: #FF1414;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
-	color:#ffffff;
+    color: #ffffff;
     cursor: pointer;
 }
 
-.about_heading{
+.about_heading {
     font-size: 2.4rem;
     color: #FF1414;
     font-weight: bold;
 }
 
 
-.about_section2 ul li{
-    margin-right:10rem;
+.about_section2 ul li {
+    margin-right: 10rem;
     margin-left: 2rem;
 }
 
-.about_heading2{
+.about_heading2 {
     font-size: 2.4rem;
     color: #FF1414;
     font-weight: bold;
     margin-left: 4.5rem;
 }
 
-.video2{
+.video2 {
     margin-right: 6rem;
 }
 
-.about_list{
+.about_list {
     font-size: 1.4rem;
     color: #FF1414;
     font-weight: bold;
@@ -67,32 +67,34 @@
 
 
 @media screen and (min-width:300px) and (max-width:768px) {
-    .about__section{
+    .about__section {
         display: block;
     }
-    .video1{
+
+    .video1 {
         margin: 0;
     }
-    .about_section, .about_section2{
+
+    .about_section,
+    .about_section2 {
         width: 100%;
         margin: 0;
     }
-    .about_section2 ul li{
-        margin:0;
+
+    .about_section2 ul li {
+        margin: 0;
         padding: 0;
     }
 
-    .about_section2 h1{
+    .about_section2 h1 {
         margin: 0;
     }
 
-    .btn{
+    .btn {
         margin-bottom: 3rem;
     }
 
-    .video2{
-        margin:3rem 0;
+    .video2 {
+        margin: 3rem 0;
     }
 }
-
-

@@ -1,0 +1,51 @@
+#footer {
+    display: flex;
+}
+
+#footer ul li {
+    font-size: 1.2rem;
+}
+
+.social_links {
+    height: 15rem;
+    width: 19rem;
+    margin-left: 4rem;
+}
+
+.footer_links {
+    color: red;
+}
+
+.social_links a {
+    font-size: 1.8rem;
+    margin: 0.6rem;
+}
+
+.footer_para {
+    font-size: 1.2rem;
+}
+
+.footer_content {
+    height: 15rem;
+    width: 20rem;
+    margin-left: 2rem;
+}
+
+.footer_content h2 {
+    margin-left: 2.7rem;
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    #footer {
+        display: block;
+    }
+
+    .social_links {
+        margin-top: 10rem;
+    }
+
+    .footer_content {
+        font-size: 1.3rem;
+    }
+}

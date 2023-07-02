@@ -1,19 +1,20 @@
-.training_heading{
-    margin-left:30rem;
+.training_heading {
+    margin-left: 30rem;
     font-size: 2.4rem;
     color: #FF1414;
     font-weight: bold;
 }
 
-#training{
-    margin:0 3rem;
+#training {
+    margin: 0 3rem;
 }
 
-@media screen and (min-width:300px) and (max-width:768px){
-    .training_heading{
-        margin-left:2rem;
+@media screen and (min-width:300px) and (max-width:768px) {
+    .training_heading {
+        margin-left: 2rem;
     }
-    #training{
-        margin:0;
+
+    #training {
+        margin: 0;
     }
 }

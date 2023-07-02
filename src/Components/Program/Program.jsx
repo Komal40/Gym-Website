@@ -1,13 +1,13 @@
 import React from 'react'
 import './Program.css'
 import CoachCard from './CoachCard/CoachCard'
-import { useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 export default function Program() {
 
-  const navigate=useNavigate()
+  const navigate = useNavigate()
 
-  const coach=[
+  const coach = [
     {
       id: 1,
       image:
@@ -44,12 +44,12 @@ export default function Program() {
       <h1 className='training_heading'>Meet Our Team</h1>
       <div className='program_section'>
         {
-          coach.map((card)=>(
-            <CoachCard key={card.id} image={card.image} name={card.name} profession={card.profession}/>
+          coach.map((card) => (
+            <CoachCard key={card.id} image={card.image} name={card.name} profession={card.profession} />
           ))
         }
       </div>
-      <button className='team_btn' onClick={()=>navigate('/team')}>See Whole Team</button>
+      <button className='team_btn' onClick={() => navigate('/team')}>See Whole Team</button>
     </div>
 
   )

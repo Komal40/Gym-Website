@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 
 export default function Training() {
-  const responsive={
+  const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 3000, min: 3000 },
       items: 5,
@@ -26,7 +26,7 @@ export default function Training() {
   }
 
 
-  const cards=[
+  const cards = [
     {
       id: 1,
       image: "https://images.unsplash.com/photo-1508215885820-4585e56135c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
@@ -67,13 +67,13 @@ export default function Training() {
 
   return (
     <div id='training'>
-    <h1 className='training_heading'>Training Program</h1>
-      <Carousel responsive={responsive} infinite={true} autoPlay={true}  autoPlaySpeed={2000}>
-      {
-        cards.map((card)=>(
-          <Card key={card.id} image={card.image} heading={card.heading}/>
-        ))
-      }
+      <h1 className='training_heading'>Training Program</h1>
+      <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
+        {
+          cards.map((card) => (
+            <Card key={card.id} image={card.image} heading={card.heading} />
+          ))
+        }
       </Carousel>
     </div>
   )

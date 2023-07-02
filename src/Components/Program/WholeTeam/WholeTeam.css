@@ -1,22 +1,22 @@
-.wholeTeam_section{
+.wholeTeam_section {
     display: flex;
     flex-wrap: wrap;
 }
 
-.wholeTeam_btn{
-    width:200px;
-	height: 50px;
-	display: flex;
-	justify-content: center;
+.wholeTeam_btn {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     color: #FF1414;
     background: transparent;
     /* box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336); */
     border-radius: 5px;
-	border:2px solid red;
+    border: 2px solid red;
     cursor: pointer;
     margin: auto;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-bottom: 8rem;
 }
