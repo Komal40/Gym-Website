@@ -25,8 +25,8 @@ export default function Navbar() {
         <ul className='menu'>
           <li><a href='#'>Home</a> </li>
           <li><a href='#about'>About</a> </li>
-          <li><a href='#program'>Program</a> </li>
-          <li><a href='#training'>Training</a> </li>
+          <li><a href='#training'>Program</a> </li>
+          <li><a href='#program'>Trainer</a> </li>
           <li><a href='#pricing'>Pricing</a> </li>
           <li><a style={{backgroundColor:'red'}} >Join Us</a> </li>
         </ul>
