@@ -6,7 +6,7 @@ import {BrowserRouter, useNavigate} from 'react-router-dom'
 
 export default function Navbar() {
 
-  const navigate=useNavigate()
+  // const navigate=useNavigate()
   
   const [active, setActive] = useState(false)
 
@@ -28,7 +28,7 @@ export default function Navbar() {
           <li><a href='#program'>Program</a> </li>
           <li><a href='#training'>Training</a> </li>
           <li><a href='#pricing'>Pricing</a> </li>
-          <li><a style={{backgroundColor:'red'}} onClick={()=>navigate('/register')}>Join Us</a> </li>
+          <li><a style={{backgroundColor:'red'}} >Join Us</a> </li>
         </ul>
         </nav>
 

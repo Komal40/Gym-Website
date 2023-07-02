@@ -1,0 +1,14 @@
+.caochCard_section_image{
+    border: 3px solid rgb(225, 31, 31);
+    border-radius: 11px;
+    height: 300px;
+    width: 300px;
+    margin:1.2rem;
+}
+
+.coachCard_lower_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

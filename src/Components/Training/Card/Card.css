@@ -1,8 +1,8 @@
 .card_section img{
-    border: 2px solid black;
+    border: 3px solid rgb(225, 31, 31);
     border-radius: 11px;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 390px;
     margin:0 3rem;
 }
 
