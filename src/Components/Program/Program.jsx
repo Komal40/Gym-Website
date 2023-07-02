@@ -1,11 +1,11 @@
 import React from 'react'
 import './Program.css'
 import CoachCard from './CoachCard/CoachCard'
-import {BrowserRouter, RouterProvider, useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 
 export default function Program() {
 
-  // const navigate=useNavigate()
+  const navigate=useNavigate()
 
   const coach=[
     {
@@ -49,7 +49,7 @@ export default function Program() {
           ))
         }
       </div>
-      <button className='team_btn' >See Whole Team</button>
+      <button className='team_btn' onClick={()=>navigate('/team')}>See Whole Team</button>
     </div>
 
   )
