@@ -9,13 +9,15 @@
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #FF1414;
-    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    background: transparent;
+    color: #FF1414;
+    /* box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336); */
     border-radius: 5px;
-	color:#ffffff;
+	/* color:#ffffff; */
     cursor: pointer;
     margin: auto;
     margin-top:2rem;
+    border: 2px solid red;
 }
 
 @media screen and (min-width:300px) and (max-width:768px){

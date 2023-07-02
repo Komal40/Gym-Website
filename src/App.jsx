@@ -7,6 +7,7 @@ import Program from './Components/Program/Program'
 import Pricing from './Components/Pricing/Pricing'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Training from './Components/Training/Training'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Training />
       <Program />
       <Pricing />
+      <Footer/>
     </>
   )
 }
